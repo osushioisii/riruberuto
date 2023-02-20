@@ -29,18 +29,21 @@
         <meta name="msapplication-TileColor" content="#FFFFFF">
     </head>
     <body>
+        <!--ヘッダー-->
         <header class="text-gray-400 bg-gray-900 body-font">
-            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-              <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
-                <img src="https://riruberuto.pages.dev/img/icon.jpg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-                <span class="ml-3 text-xl">りるべると</span>
-              </a>
-              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-                <a href="https://riruberuto.pages.dev" class="mr-5 hover:text-white">ホーム</a>
-                <a href="https://riruberuto.pages.dev/form" class="mr-5 hover:text-white">お問い合わせ</a>
-              </nav>
-            </div>
-          </header><br>
+          <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-white mb-4 md:mb-0">
+              <img src="https://riruberuto.pages.dev/img/icon.jpg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <span class="ml-3 text-xl">りるべると</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+              <a href="https://riruberuto.pages.dev" class="mr-5 hover:text-white">ホーム</a>
+              <a href="https://riruberuto.pages.dev/form" class="mr-5 hover:text-white">お問い合わせ</a>
+            </nav>
+          </div>
+        </header>
+
+        <!--お問い合わせフォーム-->
         <form action="https://formspree.io/f/mdovgeen" method="POST">
         <section class="text-gray-600 body-font relative">
             <div class="container px-5 py-24 mx-auto">
@@ -76,17 +79,18 @@
             </div>
           </section>
           </form>
+          
+          <!--フッター-->
           <div class="bg-white pt-4 sm:pt-10 lg:pt-12">
             <footer class="max-w-screen-2xl px-4 md:px-8 mx-auto">
               <div class="flex flex-col md:flex-row justify-between items-center border-t border-b gap-4 py-6">
-                <!-- nav - start -->
+
                 <nav class="flex flex-wrap justify-center md:justify-start gap-x-4 gap-y-2 md:gap-6">
                   <a href="https://riruberuto.pages.dev" class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100">ホーム</a>
                   <a href="https://riruberuto.pages.dev/form" class="text-gray-500 hover:text-indigo-500 active:text-indigo-600 transition duration-100">お問い合わせ</a>
                 </nav>
-                <!-- nav - end -->
-          
-                <!-- social - start -->
+
+                <!--SNS-->
                 <div class="flex gap-4">
                   <a href="#" target="_blank" class="text-gray-400 hover:text-gray-500 active:text-gray-600 transition duration-100">
                     <img src ="https://riruberuto.pages.dev/svg/youtube.svg" class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" alt="YouTube" href="https://www.youtube.com/channel/UCoaP6DGiRoor3AJRI4dgXqA">
@@ -96,13 +100,13 @@
                     <img src ="https://riruberuto.pages.dev/svg/twitter.svg" class="w-5 h-5" width="24" height="24" viewBox="0 0 24 24" fill="currentColor" alt="Twitter" href="https://twitter.com/riruberuto">
                   </a>
                 </div>
-                <!-- social - end -->
               </div>
           
               <div class="text-gray-400 text-sm text-center py-8">©2021- りるべると by zvuk. All rights reserved.</div>
             </footer>
           </div>
-          </body>
+          
+        <!--スクリプト-->
         <script src="https://cdn.tailwindcss.com"></script>
     </body>
 </html>
